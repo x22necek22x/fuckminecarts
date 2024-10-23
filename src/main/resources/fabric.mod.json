@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fuckminecarts",
+  "version": "${version}",
+  "name": "FuckMinecarts",
+  "description": "Najlepszy pro mod | discord.gg/zKcDHGs57P",
+  "authors": [
+    "necek"
+  ],
+  "contact": {
+    "discord": "kecenn"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "necekdevelopment.fuckminecarts.client.FuckMinecartsClient"
+    ],
+    "main": [
+      "necekdevelopment.fuckminecarts.FuckMinecarts"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric": "*",
+    "minecraft": ">=1.17.1"
+  }
+}
